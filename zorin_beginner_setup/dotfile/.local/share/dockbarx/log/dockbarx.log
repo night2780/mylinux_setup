@@ -1,0 +1,18 @@
+INFO	| 2021-12-18 01:32:42,485	| DockbarX 0.93
+INFO	| 2021-12-18 01:32:42,486	| DockbarX init
+INFO	| 2021-12-18 01:32:43,538	| DockbarX reload
+ERROR	| 2021-12-18 01:32:43,985	| Restarting DockManager Helpers failed.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dockbarx/dockmanager.py", line 142, in reset
+    "/net/launchpad/DockManager/Daemon")
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 241, in get_object
+    follow_name_owner_changes=follow_name_owner_changes)
+  File "/usr/lib/python2.7/dist-packages/dbus/proxies.py", line 248, in __init__
+    self._named_service = conn.activate_name_owner(bus_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 180, in activate_name_owner
+    self.start_service_by_name(bus_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 278, in start_service_by_name
+    'su', (bus_name, flags)))
+  File "/usr/lib/python2.7/dist-packages/dbus/connection.py", line 651, in call_blocking
+    message, timeout)
+DBusException: org.freedesktop.DBus.Error.ServiceUnknown: The name net.launchpad.DockManager.Daemon was not provided by any .service files

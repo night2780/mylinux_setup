@@ -1,0 +1,18 @@
+[2021-12-19 02:16:07.668] [renderer1] [error] [Extension Host] (node:7889) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-19 02:16:10.372] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 02:16:10.374] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-19 02:16:11.090] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 02:16:11.101] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-19 02:16:11.689] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 02:16:11.690] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-19 02:16:12.251] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 02:16:12.257] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-19 02:16:12.681] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 02:16:12.867] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-19 02:16:13.196] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 02:16:13.200] [renderer1] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor
+[2021-12-19 02:17:12.761] [renderer1] [error] [Extension Host] (node:8188) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-19 02:17:21.572] [renderer1] [error] [Extension Host] (node:8231) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)

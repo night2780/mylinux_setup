@@ -1,0 +1,4 @@
+Accuracy	Velocity	Fluidness	Date	Hour	Lesson	Keyboard
+93.06	32.03	0.00	2021-12-19	01:10	01	qwerty_us
+95.83	31.27	0.00	2021-12-19	01:11	02	qwerty_us
+93.98	36.77	0.00	2021-12-19	01:13	03	qwerty_us

@@ -1,0 +1,41 @@
+INFO	| 2021-12-17 21:34:40,463	| DockbarX 0.93
+INFO	| 2021-12-17 21:34:40,464	| DockbarX init
+INFO	| 2021-12-17 21:34:41,884	| DockbarX reload
+ERROR	| 2021-12-17 21:34:42,641	| Restarting DockManager Helpers failed.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dockbarx/dockmanager.py", line 142, in reset
+    "/net/launchpad/DockManager/Daemon")
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 241, in get_object
+    follow_name_owner_changes=follow_name_owner_changes)
+  File "/usr/lib/python2.7/dist-packages/dbus/proxies.py", line 248, in __init__
+    self._named_service = conn.activate_name_owner(bus_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 180, in activate_name_owner
+    self.start_service_by_name(bus_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 278, in start_service_by_name
+    'su', (bus_name, flags)))
+  File "/usr/lib/python2.7/dist-packages/dbus/connection.py", line 651, in call_blocking
+    message, timeout)
+DBusException: org.freedesktop.DBus.Error.ServiceUnknown: The name net.launchpad.DockManager.Daemon was not provided by any .service files
+INFO	| 2021-12-17 21:36:42,863	| Executing: exo-open --launch TerminalEmulator
+INFO	| 2021-12-17 21:38:26,334	| Executing: firefox 
+INFO	| 2021-12-17 21:38:34,725	| Executing: thunar 
+INFO	| 2021-12-17 21:44:17,681	| Executing: thunar 
+INFO	| 2021-12-17 22:02:05,821	| Executing: exo-open --launch TerminalEmulator
+INFO	| 2021-12-17 22:53:35,884	| Executing: exo-open --launch TerminalEmulator
+ERROR	| 2021-12-17 22:54:37,941	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:194: Warning: Source ID 4123 was not found when attempting to remove it
+  gobject.source_remove(self.item.deopacify_sid)
+ERROR	| 2021-12-17 22:56:49,728	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:360: Warning: Source ID 4117 was not found when attempting to remove it
+  gobject.source_remove(self.opacify_sid)
+ERROR	| 2021-12-17 23:06:33,079	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:194: Warning: Source ID 6272 was not found when attempting to remove it
+  gobject.source_remove(self.item.deopacify_sid)
+ERROR	| 2021-12-17 23:08:10,626	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:194: Warning: Source ID 8624 was not found when attempting to remove it
+  gobject.source_remove(self.item.deopacify_sid)
+ERROR	| 2021-12-17 23:08:10,640	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:194: Warning: Source ID 8638 was not found when attempting to remove it
+  gobject.source_remove(self.item.deopacify_sid)
+ERROR	| 2021-12-17 23:18:11,669	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:360: Warning: Source ID 8622 was not found when attempting to remove it
+  gobject.source_remove(self.opacify_sid)
+ERROR	| 2021-12-17 23:18:55,671	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:360: Warning: Source ID 6268 was not found when attempting to remove it
+  gobject.source_remove(self.opacify_sid)
+INFO	| 2021-12-17 23:26:21,924	| Executing: thunar 
+ERROR	| 2021-12-18 00:01:01,402	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:360: Warning: Source ID 8625 was not found when attempting to remove it
+  gobject.source_remove(self.opacify_sid)

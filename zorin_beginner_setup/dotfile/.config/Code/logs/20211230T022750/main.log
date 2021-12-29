@@ -1,0 +1,5 @@
+[2021-12-30 02:27:50.840] [main] [info] update#setState idle
+[2021-12-30 02:27:51.442] [main] [info] ExtensionHostStarterWorker created
+[2021-12-30 02:27:54.236] [main] [info] Starting extension host with pid 5288 (fork() took 23 ms).
+[2021-12-30 02:28:20.843] [main] [info] update#setState checking for updates
+[2021-12-30 02:28:20.848] [main] [info] update#setState idle

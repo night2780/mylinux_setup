@@ -1,0 +1,18 @@
+[2021-12-18 23:52:17.296] [renderer1] [error] [Extension Host] (node:32457) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-18 23:52:18.926] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-18 23:52:18.944] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-18 23:52:19.479] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-18 23:52:19.482] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-18 23:52:20.099] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-18 23:52:20.103] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-18 23:52:20.566] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-18 23:52:20.572] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-18 23:52:20.905] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-18 23:52:20.911] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-18 23:52:21.371] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-18 23:52:21.373] [renderer1] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor
+[2021-12-18 23:53:21.557] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)

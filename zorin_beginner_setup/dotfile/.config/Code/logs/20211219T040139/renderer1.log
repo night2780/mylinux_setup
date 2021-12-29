@@ -1,0 +1,40 @@
+[2021-12-19 04:01:47.904] [renderer1] [error] [Extension Host] (node:7897) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-19 04:03:28.589] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-19 04:04:04.532] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30561)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30510)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:17301)
+    at B (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:215318)
+    at Array.map (<anonymous>)
+    at Object.asDocumentSymbols (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:220656)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:124585
+    at s.provideDocumentSymbols (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:87704)
+[2021-12-19 04:04:06.173] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30561)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30510)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:17301)
+    at B (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:215318)
+    at Array.map (<anonymous>)
+    at Object.asDocumentSymbols (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:220656)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:124585
+    at s.provideDocumentSymbols (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:87704)
+[2021-12-19 04:08:29.439] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-19 04:19:57.040] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-19 04:23:03.290] [renderer1] [error] Cannot refresh property when process is undefined: Error: Cannot refresh property when process is undefined
+    at k.refreshProperty (vscode-file://vscode-app/snap/code/85/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1700:20770)
+    at _i.refreshProperty (vscode-file://vscode-app/snap/code/85/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2737:6424)
+    at async _i._updateProcessCwd (vscode-file://vscode-app/snap/code/85/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2736:974)
+[2021-12-19 04:27:26.352] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)

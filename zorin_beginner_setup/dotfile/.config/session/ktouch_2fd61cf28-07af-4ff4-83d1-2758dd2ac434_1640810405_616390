@@ -1,0 +1,10 @@
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=MainWindow
+Height 1024=700
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAA+gAAAK8AAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1000

@@ -1,0 +1,17 @@
+[Info  - 5:13:16 AM] Pylance language server 2021.12.2 (pyright 211ebe44) starting
+[Info  - 5:13:16 AM] Server root directory: /home/nighttsu/.vscode/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 5:13:17 AM] No configuration file found.
+[Info  - 5:13:17 AM] No pyproject.toml file found.
+[Info  - 5:13:17 AM] Setting pythonPath for service "Python-learning": "/usr/bin/python3"
+[Warn  - 5:13:17 AM] stubPath /home/nighttsu/Python-learning/typings is not a valid directory.
+[Info  - 5:13:17 AM] Assuming Python version 3.6
+[Info  - 5:13:17 AM] Assuming Python platform Linux
+[Warn  - 5:13:18 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:13:18 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:13:18 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:13:18 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:13:18 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 5:13:18 AM] Searching for source files
+[Info  - 5:13:18 AM] Found 138 source files
+[Info  - 5:13:18 AM] Background analysis(1) root directory: /home/nighttsu/.vscode/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 5:13:18 AM] Background analysis(1) started

@@ -1,0 +1,29 @@
+[DEBUG Dec 19 02:13:08.335985214, defaults.go:267] Args: [/home/nighttsu/.komodoide/12.0/XRE/state/bin/state-svc stop]
+[DEBUG Dec 19 02:13:08.340813646, locale.go:38] Init
+[DEBUG Dec 19 02:13:08.545879058, errs.go:68] Created error: File could not be found
+[DEBUG Dec 19 02:13:08.557475639, errs.go:68] Created error: Not Recognized
+[DEBUG Dec 19 02:13:08.592280870, errs.go:68] Created error: Secret not found
+[DEBUG Dec 19 02:13:08.592426314, errs.go:68] Created error: Could not save keypair
+[DEBUG Dec 19 02:13:08.593387263, errs.go:68] Created error: Build responded with error
+[DEBUG Dec 19 02:13:08.593542055, errs.go:68] Created error: Unknown build type
+[DEBUG Dec 19 02:13:08.594064704, errors.go:86] Wrapped localized error: <nil> -- with: The installed version of the State Tool Service does not match that of the client.
+Please stop the service with [ACTIONABLE]state-svc stop[/RESET] and try your command again.
+If this issue persists please reinstall the State Tool.
+
+[DEBUG Dec 19 02:13:08.594361273, errs.go:68] Created error: no data
+[DEBUG Dec 19 02:13:08.594427081, errs.go:68] Created error: member not found
+[DEBUG Dec 19 02:13:08.594470623, errs.go:68] Created error: Commit count is unknowable
+[DEBUG Dec 19 02:13:08.594508329, errs.go:68] Created error: No merge required
+[DEBUG Dec 19 02:13:08.594571037, errs.go:68] Created error: Can't merge commit thats already in target commits history
+[DEBUG Dec 19 02:13:08.594625219, errs.go:68] Created error: Bad expander name
+[DEBUG Dec 19 02:13:08.594664700, errs.go:68] Created error: Expander has no handler
+[DEBUG Dec 19 02:13:08.596312284, errs.go:68] Created error: Service is already running
+[DEBUG Dec 19 02:13:08.681299986, secrets.go:35] Gcloud Secretmanager failed to initialize (ignore if you're not trying to use gcloud): google: could not find default credentials. See https://developers.google.com/accounts/docs/application-default-credentials for more information.
+[DEBUG Dec 19 02:13:08.768294729, output.go:53] Requested outputer for 
+[DEBUG Dec 19 02:13:08.768358552, output.go:58] Using Plain outputer
+[DEBUG Dec 19 02:13:08.768506809, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:08.768612161, client.go:128] Reporting event to 2 reporters: run-command, state-svc stop, 
+[DEBUG Dec 19 02:13:08.768750448, main.go:119] Running CmdStop
+[DEBUG Dec 19 02:13:08.788686483, manager.go:95] Sending quit request to http://127.0.0.1:35829/__quit
+[DEBUG Dec 19 02:13:08.788824872, defaults.go:212] Third party log message: [DEBUG] GET http://127.0.0.1:35829/__quit
+[DEBUG Dec 19 02:13:08.790127039, client.go:128] Reporting event to 2 reporters: command-exit, state-svc stop, 0

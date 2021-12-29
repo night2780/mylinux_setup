@@ -1,0 +1,7 @@
+[2021-12-19 05:13:06.775] [main] [info] update#setState idle
+[2021-12-19 05:13:07.363] [main] [info] ExtensionHostStarterWorker created
+[2021-12-19 05:13:09.581] [main] [info] Starting extension host with pid 11441 (fork() took 32 ms).
+[2021-12-19 05:13:36.778] [main] [info] update#setState checking for updates
+[2021-12-19 05:13:36.782] [main] [info] update#setState idle
+[2021-12-19 05:20:36.651] [main] [info] Waiting for extension host with pid 11441 to exit.
+[2021-12-19 05:20:37.414] [main] [info] Extension host with pid 11441 exited with code: 0, signal: null.

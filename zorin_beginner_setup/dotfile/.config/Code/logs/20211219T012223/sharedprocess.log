@@ -1,0 +1,13 @@
+[2021-12-19 01:22:29.614] [sharedprocess] [info] Starting worker process with pid 4303 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-19 01:22:30.075] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2021-12-19 01:22:30.113] [sharedprocess] [info] Worker process with pid 4303 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-19 01:22:30.114] [sharedprocess] [info] Starting worker process with pid 4327 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-19 01:22:30.775] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2021-12-19 01:22:30.823] [sharedprocess] [info] Worker process with pid 4327 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-19 01:22:30.826] [sharedprocess] [info] Starting worker process with pid 4359 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-19 01:22:31.838] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2021-12-19 01:22:31.855] [sharedprocess] [info] Worker process with pid 4359 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-19 01:22:31.861] [sharedprocess] [info] Starting worker process with pid 4411 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-19 01:22:32.359] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2021-12-19 01:22:32.366] [sharedprocess] [info] Worker process with pid 4411 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-19 01:22:32.381] [sharedprocess] [info] Starting worker process with pid 4451 (type: watcherServiceParcelSharedProcess, window: 1).

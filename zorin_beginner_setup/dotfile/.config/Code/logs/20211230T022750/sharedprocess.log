@@ -1,0 +1,16 @@
+[2021-12-30 02:27:56.840] [sharedprocess] [info] Starting worker process with pid 5318 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:27:58.141] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2021-12-30 02:27:58.149] [sharedprocess] [info] Worker process with pid 5318 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:27:58.155] [sharedprocess] [info] Starting worker process with pid 5354 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:27:58.699] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2021-12-30 02:27:58.701] [sharedprocess] [info] Worker process with pid 5354 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:27:58.718] [sharedprocess] [info] Starting worker process with pid 5393 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:27:59.219] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2021-12-30 02:27:59.243] [sharedprocess] [info] Worker process with pid 5393 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:27:59.263] [sharedprocess] [info] Starting worker process with pid 5432 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:28:00.282] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2021-12-30 02:28:00.296] [sharedprocess] [info] Worker process with pid 5432 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:28:00.315] [sharedprocess] [info] Starting worker process with pid 5493 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:28:00.879] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2021-12-30 02:28:00.889] [sharedprocess] [info] Worker process with pid 5493 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 02:28:00.898] [sharedprocess] [info] Starting worker process with pid 5521 (type: watcherServiceParcelSharedProcess, window: 1).

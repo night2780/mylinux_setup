@@ -1,0 +1,18 @@
+[Info  - 1:18:05 AM] Pylance language server 2021.12.2 (pyright 211ebe44) starting
+[Info  - 1:18:05 AM] Server root directory: /home/nighttsu/.vscode/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 1:18:05 AM] No configuration file found.
+[Info  - 1:18:05 AM] No pyproject.toml file found.
+[Info  - 1:18:05 AM] Setting pythonPath for service "nighttsu": "/usr/bin/python3"
+[Warn  - 1:18:05 AM] stubPath /home/nighttsu/typings is not a valid directory.
+[Info  - 1:18:06 AM] Assuming Python version 3.6
+[Info  - 1:18:06 AM] Assuming Python platform Linux
+[Warn  - 1:18:07 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 1:18:07 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 1:18:07 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 1:18:07 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 1:18:07 AM] Searching for source files
+[Warn  - 1:18:07 AM] Skipping broken link "/home/nighttsu/.cache/doc"
+[Warn  - 1:18:11 AM] Skipping broken link "/home/nighttsu/.gvfs"
+[Info  - 1:18:14 AM] Found 13232 source files
+[Info  - 1:18:14 AM] Background analysis(1) root directory: /home/nighttsu/.vscode/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 1:18:14 AM] Background analysis(1) started

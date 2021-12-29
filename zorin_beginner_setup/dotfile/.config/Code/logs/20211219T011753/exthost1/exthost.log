@@ -1,0 +1,102 @@
+[2021-12-19 01:17:57.867] [exthost] [info] Extension host with pid 3171 started
+[2021-12-19 01:17:57.867] [exthost] [info] Skipping acquiring lock for /home/nighttsu/.config/Code/User/workspaceStorage/a26fbece672e9308d24b6c628a1d5fed.
+[2021-12-19 01:17:58.370] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-19 01:17:58.392] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-19 01:17:58.405] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-19 01:17:58.610] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-19 01:17:58.702] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-19 01:17:58.710] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-19 01:17:58.719] [exthost] [info] ExtensionService#_doActivateExtension bierner.color-info, startup: true, activationEvent: '*'
+[2021-12-19 01:17:58.737] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+[2021-12-19 01:17:58.767] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-12-19 01:17:58.779] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-19 01:17:59.308] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-19 01:17:59.349] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-19 01:17:59.885] [exthost] [info] Eager extensions activated
+[2021-12-19 01:17:59.951] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-19 01:18:00.254] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:18:00.270] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:18:00.276] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:18:00.372] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:18:00.387] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:18:03.899] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+[2021-12-19 01:18:14.826] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:14.843] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:124663
+    at s.provideDocumentSymbols (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:87704)
+[2021-12-19 01:18:14.857] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:14.857] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:118829
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-19 01:18:14.863] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:14.864] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 01:18:14.873] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:14.873] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 01:18:15.088] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:15.089] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 01:18:15.097] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:15.097] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 01:18:15.117] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:15.118] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 01:18:15.132] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:15.132] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 01:18:15.135] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:15.135] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 01:18:15.139] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:15.140] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 01:18:15.145] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:15.145] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 01:18:15.453] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:15.454] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+    at T.provideCodeActions (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-19 01:18:15.454] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 01:18:15.455] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+    at T.provideCodeActions (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-19 01:19:48.879] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-19 01:19:48.943] [exthost] [info] Extension host with pid 3171 exiting with code 0

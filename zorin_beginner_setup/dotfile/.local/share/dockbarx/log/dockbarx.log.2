@@ -1,0 +1,33 @@
+INFO	| 2021-12-18 00:33:43,601	| DockbarX 0.93
+INFO	| 2021-12-18 00:33:43,602	| DockbarX init
+INFO	| 2021-12-18 00:33:44,357	| DockbarX reload
+ERROR	| 2021-12-18 00:33:45,934	| Restarting DockManager Helpers failed.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dockbarx/dockmanager.py", line 142, in reset
+    "/net/launchpad/DockManager/Daemon")
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 241, in get_object
+    follow_name_owner_changes=follow_name_owner_changes)
+  File "/usr/lib/python2.7/dist-packages/dbus/proxies.py", line 248, in __init__
+    self._named_service = conn.activate_name_owner(bus_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 180, in activate_name_owner
+    self.start_service_by_name(bus_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 278, in start_service_by_name
+    'su', (bus_name, flags)))
+  File "/usr/lib/python2.7/dist-packages/dbus/connection.py", line 651, in call_blocking
+    message, timeout)
+DBusException: org.freedesktop.DBus.Error.ServiceUnknown: The name net.launchpad.DockManager.Daemon was not provided by any .service files
+INFO	| 2021-12-18 00:34:01,609	| Executing: exo-open --launch TerminalEmulator
+ERROR	| 2021-12-18 00:35:36,008	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:194: Warning: Source ID 1121 was not found when attempting to remove it
+  gobject.source_remove(self.item.deopacify_sid)
+ERROR	| 2021-12-18 00:35:36,020	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:194: Warning: Source ID 1132 was not found when attempting to remove it
+  gobject.source_remove(self.item.deopacify_sid)
+ERROR	| 2021-12-18 00:35:56,848	| Traceback (most recent call last):
+ERROR	| 2021-12-18 00:35:56,848	|   File "/usr/share/xfce4/panel/plugins/xfce4-dockbarx-plug", line 166, in image_pattern
+ERROR	| 2021-12-18 00:35:56,848	|     surface = cairo.ImageSurface.create_from_png(image)
+ERROR	| 2021-12-18 00:35:56,848	| Error: file not found
+DEBUG	| 2021-12-18 00:35:56,849	| Failed to load image.
+ERROR	| 2021-12-18 00:36:05,527	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:360: Warning: Source ID 1100 was not found when attempting to remove it
+  gobject.source_remove(self.opacify_sid)
+ERROR	| 2021-12-18 00:36:14,077	| /usr/lib/python2.7/dist-packages/dockbarx/windowbutton.py:360: Warning: Source ID 1122 was not found when attempting to remove it
+  gobject.source_remove(self.opacify_sid)
+INFO	| 2021-12-18 00:38:58,834	| Executing: firefox 

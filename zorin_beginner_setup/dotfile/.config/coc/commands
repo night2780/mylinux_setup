@@ -1,0 +1,5 @@
+workspace.renameCurrentFile
+python.execInTerminal
+python.execSelectionInDjangoShell
+python.execSelectionInTerminal
+workspace.showOutput

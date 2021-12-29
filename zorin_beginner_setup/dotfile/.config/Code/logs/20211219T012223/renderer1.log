@@ -1,0 +1,34 @@
+[2021-12-19 01:22:27.063] [renderer1] [error] [Extension Host] (node:4249) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-19 01:22:30.022] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 01:22:30.023] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-19 01:22:30.651] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 01:22:30.652] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-19 01:22:31.141] [renderer1] [error] [Extension Host] TypeError: Cannot read property 'version' of null
+    at /home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:68024
+    at l (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4485)
+    at Generator._invoke (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4273)
+    at Generator.next (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4910)
+    at l (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4485)
+    at M (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:5658)
+    at Generator._invoke (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4050)
+    at Generator.next (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4910)
+    at t (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:413)
+    at s (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:624)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-12-19 01:22:31.142] [renderer1] [error] [Extension Host] TypeError: Cannot read property 'version' of null
+    at /home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:68024
+    at l (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4485)
+    at Generator._invoke (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4273)
+    at Generator.next (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4910)
+    at l (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4485)
+    at M (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:5658)
+    at Generator._invoke (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4050)
+    at Generator.next (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:4910)
+    at t (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:413)
+    at s (/home/nighttsu/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js:1:624)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-12-19 01:22:31.827] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 01:22:31.829] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-19 01:22:32.353] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-19 01:22:32.355] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor

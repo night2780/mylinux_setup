@@ -1,0 +1,64 @@
+[DEBUG Dec 19 02:13:07.733508418, defaults.go:267] Args: [/tmp/state-update239020788/state-install/state-installer /home/nighttsu/.komodoide/12.0/XRE/state -n -f -t /home/nighttsu/.komodoide/12.0/XRE/state --source-installer=install.sh --from-deferred --source-path /tmp/state-update239020788/state-install]
+[DEBUG Dec 19 02:13:07.743447211, locale.go:38] Init
+[DEBUG Dec 19 02:13:07.957151095, errs.go:68] Created error: File could not be found
+[DEBUG Dec 19 02:13:07.971497285, errs.go:68] Created error: Not Recognized
+[DEBUG Dec 19 02:13:08.006227861, errs.go:68] Created error: Secret not found
+[DEBUG Dec 19 02:13:08.006325600, errs.go:68] Created error: Could not save keypair
+[DEBUG Dec 19 02:13:08.007531662, errs.go:68] Created error: Build responded with error
+[DEBUG Dec 19 02:13:08.007665027, errs.go:68] Created error: Unknown build type
+[DEBUG Dec 19 02:13:08.008054248, errors.go:86] Wrapped localized error: <nil> -- with: The installed version of the State Tool Service does not match that of the client.
+Please stop the service with [ACTIONABLE]state-svc stop[/RESET] and try your command again.
+If this issue persists please reinstall the State Tool.
+
+[DEBUG Dec 19 02:13:08.008109311, errs.go:68] Created error: no data
+[DEBUG Dec 19 02:13:08.008199540, errs.go:68] Created error: member not found
+[DEBUG Dec 19 02:13:08.008300678, errs.go:68] Created error: Commit count is unknowable
+[DEBUG Dec 19 02:13:08.008391911, errs.go:68] Created error: No merge required
+[DEBUG Dec 19 02:13:08.008484571, errs.go:68] Created error: Can't merge commit thats already in target commits history
+[DEBUG Dec 19 02:13:08.008615281, errs.go:68] Created error: Bad expander name
+[DEBUG Dec 19 02:13:08.008943118, errs.go:68] Created error: Expander has no handler
+[DEBUG Dec 19 02:13:08.010157968, output.go:53] Requested outputer for plain
+[DEBUG Dec 19 02:13:08.010186222, output.go:58] Using Plain outputer
+[DEBUG Dec 19 02:13:08.010209477, cmd.go:115] Original Args: [/tmp/state-update239020788/state-install/state-installer /home/nighttsu/.komodoide/12.0/XRE/state -n -f -t /home/nighttsu/.komodoide/12.0/XRE/state --source-installer=install.sh --from-deferred --source-path /tmp/state-update239020788/state-install]
+[DEBUG Dec 19 02:13:08.010239822, cmd.go:116] Processed Args: [/tmp/state-update239020788/state-install/state-installer /home/nighttsu/.komodoide/12.0/XRE/state -n -f -t /home/nighttsu/.komodoide/12.0/XRE/state --source-installer=install.sh --from-deferred --source-path /tmp/state-update239020788/state-install]
+[DEBUG Dec 19 02:13:08.091669500, client.go:128] Reporting event to 2 reporters: installer-funnel, start, 
+[DEBUG Dec 19 02:13:08.091765230, client.go:128] Reporting event to 2 reporters: run-command, state-installer , 
+[DEBUG Dec 19 02:13:08.091951142, cmd.go:254] Not using update flow as --force was passed
+[DEBUG Dec 19 02:13:08.092000154, cmd.go:296] Install from local source
+[DEBUG Dec 19 02:13:08.092041424, installer.go:36] Instantiated installer with source dir: /tmp/state-update239020788/state-install, target dir: /home/nighttsu/.komodoide/12.0/XRE/state
+[DEBUG Dec 19 02:13:08.092129565, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:08.092045257, client.go:128] Reporting event to 2 reporters: installer-funnel, exec, 
+[DEBUG Dec 19 02:13:08.092154282, client.go:128] Reporting event to 2 reporters: installer-funnel, install, 
+[DEBUG Dec 19 02:13:08.091787535, client.go:128] Reporting event to 2 reporters: installer-funnel, pre-exec, 
+[DEBUG Dec 19 02:13:08.092186193, client.go:128] Reporting event to 2 reporters: installer-funnel, local-source, 
+[DEBUG Dec 19 02:13:08.093663239, errs.go:75] Wrapped error: process does not exist -- with: state-tray pid not set in config
+[DEBUG Dec 19 02:13:08.094118309, client.go:128] Reporting event to 2 reporters: installer-funnel, pre-installer, 
+[DEBUG Dec 19 02:13:08.095356629, errs.go:75] Wrapped error: process does not exist -- with: state-tray pid not set in config
+[DEBUG Dec 19 02:13:08.095464892, exeutils.go:120] Executing command: /home/nighttsu/.komodoide/12.0/XRE/state/bin/state-svc, [stop]
+[DEBUG Dec 19 02:13:10.286458603, fileutils.go:538] Copying files from /tmp/state-update239020788/state-install to /home/nighttsu/.komodoide/12.0/XRE/state
+[DEBUG Dec 19 02:13:10.832934069, fileutils.go:538] Copying files from /tmp/state-update239020788/state-install/bin to /home/nighttsu/.komodoide/12.0/XRE/state
+[DEBUG Dec 19 02:13:11.042213041, subshell.go:102] Detected SHELL: zsh
+[DEBUG Dec 19 02:13:11.042262186, subshell.go:134] Using binary: /bin/zsh
+[DEBUG Dec 19 02:13:11.042606493, rcfile.go:159] Cleaning previous RC lines from /home/nighttsu/.zshrc
+[DEBUG Dec 19 02:13:11.043293896, rcfile.go:89] Writing to /home/nighttsu/.zshrc:
+# -- START ACTIVESTATE INSTALLATION
+export PATH="/home/nighttsu/.komodoide/12.0/XRE/state:$PATH"
+# -- STOP ACTIVESTATE INSTALLATION
+
+[DEBUG Dec 19 02:13:11.043452251, exeutils.go:100] ExecSimpleFromDir: dir: , bin: /home/nighttsu/.komodoide/12.0/XRE/state/bin/state, args: [_prepare]
+[DEBUG Dec 19 02:13:14.416944300, installer.go:118] Installation was successful
+[DEBUG Dec 19 02:13:14.417049228, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:14.417102982, client.go:128] Reporting event to 2 reporters: installer-funnel, post-installer, 
+[DEBUG Dec 19 02:13:14.417184807, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:14.417238710, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:14.417298540, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:14.417393348, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:14.417483719, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:14.417523521, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:14.417579378, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 02:13:14.417852721, client.go:128] Reporting event to 2 reporters: installer-funnel, post-install-events, 
+[DEBUG Dec 19 02:13:14.418103374, subshell.go:102] Detected SHELL: zsh
+[DEBUG Dec 19 02:13:14.418145777, subshell.go:134] Using binary: /bin/zsh
+[DEBUG Dec 19 02:13:14.418276763, sscommon.go:41] Starting subshell with cmd: /bin/zsh
+[DEBUG Dec 19 02:14:50.259618204, client.go:128] Reporting event to 2 reporters: command-exit, state-installer , 0
+[DEBUG Dec 19 02:14:50.260109402, client.go:128] Reporting event to 2 reporters: installer-funnel, success, 

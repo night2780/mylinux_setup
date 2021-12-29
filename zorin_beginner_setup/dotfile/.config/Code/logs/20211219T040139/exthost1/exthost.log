@@ -1,0 +1,128 @@
+[2021-12-19 04:01:48.403] [exthost] [info] Extension host with pid 7897 started
+[2021-12-19 04:01:48.403] [exthost] [info] Skipping acquiring lock for /home/nighttsu/.config/Code/User/workspaceStorage/14bb7f9d670b6411e552d47b581238d1.
+[2021-12-19 04:01:48.678] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-19 04:01:48.928] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-19 04:01:49.114] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-19 04:01:49.188] [exthost] [info] ExtensionService#_doActivateExtension bierner.color-info, startup: true, activationEvent: '*'
+[2021-12-19 04:01:49.361] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+[2021-12-19 04:01:51.287] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-12-19 04:01:51.324] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-19 04:01:52.168] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-19 04:01:52.242] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-19 04:01:52.419] [exthost] [info] Eager extensions activated
+[2021-12-19 04:01:52.498] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 04:01:52.530] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 04:01:52.545] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 04:01:52.704] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 04:01:52.767] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 04:01:52.815] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-19 04:03:01.512] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-19 04:03:01.683] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-19 04:03:02.326] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-19 04:03:03.457] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+[2021-12-19 04:03:07.412] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:03:07.413] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+    at T.provideCodeActions (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-19 04:03:08.460] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:03:08.461] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+    at T.provideCodeActions (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-19 04:03:28.574] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:03:28.575] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-19 04:04:04.476] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:04:04.477] [exthost] [error] Error: name must not be falsy
+    at Function.validate (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30561)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30510)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:17301)
+    at B (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:215318)
+    at Array.map (<anonymous>)
+    at Object.asDocumentSymbols (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:220656)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:124585
+    at s.provideDocumentSymbols (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:87704)
+[2021-12-19 04:04:06.168] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:04:06.169] [exthost] [error] Error: name must not be falsy
+    at Function.validate (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30561)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:30510)
+    at new t (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:17301)
+    at B (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:215318)
+    at Array.map (<anonymous>)
+    at Object.asDocumentSymbols (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:220656)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:124585
+    at s.provideDocumentSymbols (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:87704)
+[2021-12-19 04:04:22.650] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:04:22.650] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+    at T.provideCodeActions (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-19 04:04:50.756] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:04:50.757] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 04:05:58.770] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:05:58.770] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 04:06:04.326] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:06:04.327] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 04:06:04.334] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:06:04.335] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 04:07:15.332] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:07:15.332] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at h.provideDocumentHighlights (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:91846)
+[2021-12-19 04:08:29.435] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:08:29.436] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-19 04:16:10.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-19 04:16:10.978] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-19 04:16:11.092] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-19 04:19:13.815] [exthost] [info] ExtensionService#_doActivateExtension evan-buss.font-switcher, startup: false, activationEvent: 'onCommand:font-switcher.setFontSize'
+[2021-12-19 04:19:57.035] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:19:57.035] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-19 04:27:26.298] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-19 04:27:26.298] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+    at /home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/nighttsu/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at z.provideCompletionItems (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-19 04:29:28.811] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-19 04:29:29.782] [exthost] [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/nighttsu/.vscode/extensions/vscodevim.vim-1.21.10/src/register/register.ts:350:30)
+    at Object.e.deactivate (/home/nighttsu/.vscode/extensions/vscodevim.vim-1.21.10/extension.ts:37:18)
+    at v._deactivate (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:11513)
+    at /snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:10061
+    at Array.map (<anonymous>)
+    at v.deactivateAll (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:10049)
+    at p.terminate (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:735)
+    at r (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:36400)
+    at Socket.<anonymous> (/snap/code/85/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:34012)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-12-19 04:29:29.782] [exthost] [info] Extension host with pid 7897 exiting with code 0

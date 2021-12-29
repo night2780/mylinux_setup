@@ -1,0 +1,102 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.letterSpacing":1,
+    "editor.suggest.showVariables":true,
+    "editor.fontFamily": "MesloLGLDZ Nerd Font Mono,Anonymice Nerd Font",
+    "terminal.integrated.inheritEnv": false,
+    "editor.insertSpaces": false,
+    "python.languageServer": "Pylance",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "terminal.integrated.fontFamily": "Anonymice Nerd Font",
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "git.autofetch": true,
+    "editor.accessibilityPageSize": 12,
+    "editor.fontSize": 18,
+    "editor.fontWeight": "200",
+    "python.formatting.provider": "yapf",
+    "workbench.panel.defaultLocation": "right",
+    "terminal.integrated.fontSize": 16,
+    "debug.inlineValues": true,
+    "debug.internalConsoleOptions": "openOnFirstSessionStart",
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "k"],
+        "after": ["<esc>"]
+        },
+        {
+        "before": ["q", "q"],
+        "after": ["<esc>"]
+        },
+        {
+        "before": ["<C-k>"],
+        "after": ["<Up>"]
+        },
+        {
+        "before": ["<C-j>"],
+        "after": ["<Down>"]
+        },
+        {
+        "before": ["<C-h>"],
+        "after": ["<Left>"]
+        },
+        {
+        "before": ["<C-l>"],
+        "after": ["<Right>"]
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+        "before": ["k"],
+        "after": ["<Up>"]
+        },
+        {
+        "before": ["j"],
+        "after": ["<Down>"]
+        },
+        {
+        "before": ["h"],
+        "after": ["<Left>"]
+        },
+        {
+        "before": ["l"],
+        "after": ["<Right>"]
+    },
+
+    ],
+    "terminal.integrated.wordSeparators": " ()[]{}',\"`─‘’",
+    "terminal.integrated.lineHeight": 1,
+    "notebook.lineNumbers": "on",
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorCustomizations": {
+
+        "tree.indentGuidesStroke": "#ff0000"
+        },
+        "git.confirmSync": false,
+        "git.enableSmartCommit": true,
+        "workbench.editor.enablePreview": false,
+        "debug.console.fontSize": 16,
+        "window.menuBarVisibility": "toggle",
+        "vim.cursorStylePerMode.normal": "block",
+        "vim.cursorStylePerMode.replace": "underline",
+        "vim.cursorStylePerMode.visual": "underline",
+        "vim.cursorStylePerMode.visualblock": "block-outline",
+        "vim.highlightedyank.enable": true,
+        "vim.easymotion": true,
+        "terminal.integrated.copyOnSelection": true,
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.enablePersistentSessions": false,
+        "terminal.integrated.letterSpacing": 1,
+        "terminal.external.linuxExec": "xfce-terminal-emulator",
+        "bracketPairColorizer.depreciation-notice": false,
+        "C_Cpp.updateChannel": "Insiders",
+        "python.defaultInterpreterPath": "/usr/bin/python3",
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.colorTheme": "Dracula",
+
+
+}

@@ -1,0 +1,23 @@
+[2021-12-19 01:22:27.358] [exthost] [info] Extension host with pid 4249 started
+[2021-12-19 01:22:27.358] [exthost] [info] Skipping acquiring lock for /home/nighttsu/.config/Code/User/workspaceStorage/a26fbece672e9308d24b6c628a1d5fed.
+[2021-12-19 01:22:27.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-19 01:22:27.865] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-19 01:22:27.882] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-19 01:22:28.117] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-19 01:22:28.221] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-19 01:22:28.250] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-19 01:22:28.262] [exthost] [info] ExtensionService#_doActivateExtension bierner.color-info, startup: true, activationEvent: '*'
+[2021-12-19 01:22:28.275] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+[2021-12-19 01:22:28.317] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-12-19 01:22:28.333] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-19 01:22:28.963] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-19 01:22:29.005] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-19 01:22:29.605] [exthost] [info] Eager extensions activated
+[2021-12-19 01:22:29.608] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-19 01:22:29.917] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:22:29.935] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:22:29.945] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:22:30.038] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:22:30.051] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-19 01:22:32.611] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-19 01:22:32.701] [exthost] [info] Extension host with pid 4249 exiting with code 0

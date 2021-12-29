@@ -1,0 +1,120 @@
+[DEBUG Dec 19 04:30:32.367391883, defaults.go:267] Args: [/home/nighttsu/.komodoide/12.0/XRE/state/bin/state-svc foreground]
+[DEBUG Dec 19 04:30:32.374893815, locale.go:38] Init
+[DEBUG Dec 19 04:30:32.591735339, errs.go:68] Created error: File could not be found
+[DEBUG Dec 19 04:30:32.604081064, errs.go:68] Created error: Not Recognized
+[DEBUG Dec 19 04:30:32.644691840, errs.go:68] Created error: Secret not found
+[DEBUG Dec 19 04:30:32.644780784, errs.go:68] Created error: Could not save keypair
+[DEBUG Dec 19 04:30:32.645040420, errs.go:68] Created error: Build responded with error
+[DEBUG Dec 19 04:30:32.645089578, errs.go:68] Created error: Unknown build type
+[DEBUG Dec 19 04:30:32.645293885, errors.go:86] Wrapped localized error: <nil> -- with: The installed version of the State Tool Service does not match that of the client.
+Please stop the service with [ACTIONABLE]state-svc stop[/RESET] and try your command again.
+If this issue persists please reinstall the State Tool.
+
+[DEBUG Dec 19 04:30:32.645324168, errs.go:68] Created error: no data
+[DEBUG Dec 19 04:30:32.645361753, errs.go:68] Created error: member not found
+[DEBUG Dec 19 04:30:32.645397345, errs.go:68] Created error: Commit count is unknowable
+[DEBUG Dec 19 04:30:32.645433004, errs.go:68] Created error: No merge required
+[DEBUG Dec 19 04:30:32.645473370, errs.go:68] Created error: Can't merge commit thats already in target commits history
+[DEBUG Dec 19 04:30:32.645512024, errs.go:68] Created error: Bad expander name
+[DEBUG Dec 19 04:30:32.645549423, errs.go:68] Created error: Expander has no handler
+[DEBUG Dec 19 04:30:32.646943571, errs.go:68] Created error: Service is already running
+[DEBUG Dec 19 04:30:32.654952831, secrets.go:35] Gcloud Secretmanager failed to initialize (ignore if you're not trying to use gcloud): google: could not find default credentials. See https://developers.google.com/accounts/docs/application-default-credentials for more information.
+[DEBUG Dec 19 04:30:32.736664021, output.go:53] Requested outputer for 
+[DEBUG Dec 19 04:30:32.736765784, output.go:58] Using Plain outputer
+[DEBUG Dec 19 04:30:32.736895419, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 04:30:32.737015905, client.go:128] Reporting event to 2 reporters: run-command, state-svc foreground, 
+[DEBUG Dec 19 04:30:32.737261806, main.go:139] Running CmdForeground
+[DEBUG Dec 19 04:30:32.737333438, main.go:149] Running in Foreground
+[DEBUG Dec 19 04:30:32.737419975, service.go:30] service:Start
+[DEBUG Dec 19 04:30:33.047240405, service.go:42] Server starting on port: 34005
+[DEBUG Dec 19 04:30:33.047489526, client.go:128] Reporting event to 2 reporters: state-svc, start, 
+[DEBUG Dec 19 04:30:33.048645689, resolver.go:57] Version resolver
+[DEBUG Dec 19 04:30:33.048807058, client.go:128] Reporting event to 2 reporters: state-svc, endpoint, Version
+[DEBUG Dec 19 04:30:33.050513902, resolver.go:121] Analytics event resolver
+[DEBUG Dec 19 04:30:33.051048288, client.go:128] Reporting event to 2 reporters: run-command, _prepare, 
+[DEBUG Dec 19 04:30:33.091214467, resolver.go:121] Analytics event resolver
+[DEBUG Dec 19 04:30:33.091620072, client.go:128] Reporting event to 2 reporters: command-exit, _prepare, 0
+[DEBUG Dec 19 04:31:32.738610238, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:32:32.738607026, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:33:32.738632050, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:34:32.738587066, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:35:32.738514557, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:36:32.738569372, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:37:32.738599668, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:38:32.738630652, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:39:32.738548838, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:40:32.738256047, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:41:32.738611315, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:42:32.738451980, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:43:32.738249464, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:44:32.738607840, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:45:32.738250307, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:46:32.738838872, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:47:32.738619229, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:48:32.739133401, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:49:32.738554705, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:50:32.738636061, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:51:32.738558860, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:52:32.738569236, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:53:32.738650812, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:54:32.738613926, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:55:32.738485966, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:56:32.738591485, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:57:32.738591438, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:58:32.738198283, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 04:59:32.738586911, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:00:32.738845013, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:01:32.738631130, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:02:32.738734422, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:03:32.738513412, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:04:32.738081333, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:05:32.738683835, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:06:32.738563186, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:07:32.738502320, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:08:32.738970525, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:09:32.739000313, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:10:32.738528170, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:11:32.738423771, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:12:32.738557492, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:13:32.738304899, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:14:32.738896622, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:15:32.738046982, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:16:32.738527174, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:17:32.738550124, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:18:32.738677791, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:19:32.739128618, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:20:32.738746792, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:21:32.738624610, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:22:32.738657916, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:23:32.738528771, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:24:32.738771296, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:25:32.738593381, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:26:32.738675130, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:27:32.738494096, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:28:32.738222263, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:29:32.738710224, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:30:32.738557405, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:31:32.738538032, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:32:32.739010304, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:33:32.738483720, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:34:32.738570344, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:35:32.738633664, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:36:32.738989845, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:37:32.738602750, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:38:32.738743517, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:39:32.738871220, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:40:32.738726093, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:41:32.738449588, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:42:32.738621086, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:43:32.738199382, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:44:32.738515951, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:45:32.738547442, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:46:32.738155448, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:47:32.738823855, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:48:32.738647471, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:49:32.738669001, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:50:32.739069690, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:51:32.738683097, watcher.go:72] Checking for runtime processes
+[DEBUG Dec 19 05:51:54.667301736, main.go:163] system call:terminated
+[DEBUG Dec 19 05:51:54.667411133, server.go:76] shutting down server
+[DEBUG Dec 19 05:51:54.667572938, client.go:128] Reporting event to 2 reporters: state-svc, start-failure, 

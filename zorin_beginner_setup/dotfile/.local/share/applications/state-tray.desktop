@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=ActiveState Desktop (Preview)
+GenericName=Language Runtime Manager
+Type=Application
+Comment=Manage ActiveState Platform Projects
+Exec="/home/nighttsu/.komodoide/12.0/XRE/state/bin/state-tray"
+Terminal=false
+Keywords=activestate;state;tray;language;runtime;python;perl;tcl;
+Categories=Utility;Development;
+Hidden=false
+NoDisplay=false
+StartupNotify=false
+Icon=state-tray
+Name[en_US]=ActiveState Desktop (Preview)

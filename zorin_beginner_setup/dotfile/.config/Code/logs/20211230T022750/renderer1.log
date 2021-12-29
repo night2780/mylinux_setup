@@ -1,0 +1,14 @@
+[2021-12-30 02:27:55.507] [renderer1] [error] [Extension Host] (node:5288) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-30 02:27:58.123] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-30 02:27:58.132] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-30 02:27:58.677] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-30 02:27:58.687] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-30 02:27:59.185] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-30 02:27:59.214] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-30 02:28:00.264] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-30 02:28:00.270] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-30 02:28:00.864] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-30 02:28:00.882] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-30 02:28:01.250] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/nighttsu)
+[2021-12-30 02:28:01.252] [renderer1] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor

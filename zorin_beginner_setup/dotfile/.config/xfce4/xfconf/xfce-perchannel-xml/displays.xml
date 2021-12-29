@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="displays" version="1.0">
+  <property name="ActiveProfile" type="string" value="Default"/>
+  <property name="Default" type="empty">
+    <property name="LVDS-1" type="string" value="Laptop">
+      <property name="Active" type="bool" value="false"/>
+      <property name="EDID" type="string" value="0a17179f1373f5d3d98027adee00f546d597af5d"/>
+      <property name="Resolution" type="string" value="1366x768"/>
+      <property name="RefreshRate" type="double" value="60.022763"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="HDMI-1" type="string" value="SKYDATA S.P.A. 40&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="3f9b6b76b38050992bd942a8e9d0f14fab46e208"/>
+      <property name="Resolution" type="string" value="1360x768"/>
+      <property name="RefreshRate" type="double" value="60.015162"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="VGA-1" type="string" value="Acer 17&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="f074e608efb48caf9a5419ba66ab60d80f8dca0d"/>
+      <property name="Resolution" type="string" value="1280x1024"/>
+      <property name="RefreshRate" type="double" value="75.024675"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+</channel>

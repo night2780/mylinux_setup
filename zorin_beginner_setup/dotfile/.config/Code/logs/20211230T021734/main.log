@@ -1,0 +1,5 @@
+[2021-12-30 02:17:35.041] [main] [info] update#setState idle
+[2021-12-30 02:17:35.636] [main] [info] ExtensionHostStarterWorker created
+[2021-12-30 02:17:38.325] [main] [info] Starting extension host with pid 2906 (fork() took 50 ms).
+[2021-12-30 02:18:04.450] [main] [info] Waiting for extension host with pid 2906 to exit.
+[2021-12-30 02:18:04.514] [main] [info] Extension host with pid 2906 exited with code: 0, signal: null.

@@ -1,0 +1,12 @@
+[Added Associations]
+text/x-haskell=org.gnome.gedit.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;
+text/x-python=org.gnome.gedit.desktop;
+text/plain=org.gnome.gedit.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-UFRDE1.desktop;
+message/rfc822=userapp-Thunderbird-UFRDE1.desktop;
+text/x-meson=ktelnetservice5.desktop;
+
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-UFRDE1.desktop
+message/rfc822=userapp-Thunderbird-UFRDE1.desktop

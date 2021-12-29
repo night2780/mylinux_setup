@@ -1,0 +1,47 @@
+[DEBUG Dec 19 04:30:07.768461672, defaults.go:267] Args: [/tmp/state-installer -n -f -t /home/nighttsu/.komodoide/12.0/XRE/state --source-installer=install.sh]
+[DEBUG Dec 19 04:30:07.805256302, locale.go:38] Init
+[DEBUG Dec 19 04:30:08.025221686, errs.go:68] Created error: File could not be found
+[DEBUG Dec 19 04:30:08.038069318, errs.go:68] Created error: Not Recognized
+[DEBUG Dec 19 04:30:08.077843001, errs.go:68] Created error: Secret not found
+[DEBUG Dec 19 04:30:08.077930105, errs.go:68] Created error: Could not save keypair
+[DEBUG Dec 19 04:30:08.078217284, errs.go:68] Created error: Build responded with error
+[DEBUG Dec 19 04:30:08.078271142, errs.go:68] Created error: Unknown build type
+[DEBUG Dec 19 04:30:08.078472660, errors.go:86] Wrapped localized error: <nil> -- with: The installed version of the State Tool Service does not match that of the client.
+Please stop the service with [ACTIONABLE]state-svc stop[/RESET] and try your command again.
+If this issue persists please reinstall the State Tool.
+
+[DEBUG Dec 19 04:30:08.078503090, errs.go:68] Created error: no data
+[DEBUG Dec 19 04:30:08.078541150, errs.go:68] Created error: member not found
+[DEBUG Dec 19 04:30:08.078581161, errs.go:68] Created error: Commit count is unknowable
+[DEBUG Dec 19 04:30:08.078617813, errs.go:68] Created error: No merge required
+[DEBUG Dec 19 04:30:08.078653343, errs.go:68] Created error: Can't merge commit thats already in target commits history
+[DEBUG Dec 19 04:30:08.078691367, errs.go:68] Created error: Bad expander name
+[DEBUG Dec 19 04:30:08.078731503, errs.go:68] Created error: Expander has no handler
+[DEBUG Dec 19 04:30:08.117671261, output.go:53] Requested outputer for plain
+[DEBUG Dec 19 04:30:08.117771823, output.go:58] Using Plain outputer
+[DEBUG Dec 19 04:30:08.117820971, cmd.go:115] Original Args: [/tmp/state-installer -n -f -t /home/nighttsu/.komodoide/12.0/XRE/state --source-installer=install.sh]
+[DEBUG Dec 19 04:30:08.117880961, cmd.go:116] Processed Args: [/tmp/state-installer -n -f -t /home/nighttsu/.komodoide/12.0/XRE/state --source-installer=install.sh]
+[DEBUG Dec 19 04:30:08.201632781, client.go:128] Reporting event to 2 reporters: installer-funnel, start, 
+[DEBUG Dec 19 04:30:08.201704722, client.go:128] Reporting event to 2 reporters: installer-funnel, pre-exec, 
+[DEBUG Dec 19 04:30:08.201828433, cmd.go:254] Not using update flow as --force was passed
+[DEBUG Dec 19 04:30:08.201885062, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 04:30:08.201988368, client.go:128] Reporting event to 2 reporters: installer-funnel, exec, 
+[DEBUG Dec 19 04:30:08.202055311, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 04:30:08.202105387, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 04:30:08.202241056, client.go:128] Reporting event to 2 reporters: installer-funnel, install, 
+[DEBUG Dec 19 04:30:08.202324136, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 04:30:08.202444000, client.go:128] Reporting event to 2 reporters: installer-funnel, remote-source, 
+[DEBUG Dec 19 04:30:08.201715919, client.go:128] Reporting event to 2 reporters: run-command, state-installer , 
+[DEBUG Dec 19 04:30:08.202832119, checker.go:112] Getting update info: https://platform.activestate.com/sv/state-update/api/v1/info?channel=release&platform=linux&source=install
+[DEBUG Dec 19 04:30:09.350601618, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 04:30:09.350791886, client.go:128] Reporting event to 2 reporters: installer-funnel, download, 
+[DEBUG Dec 19 04:30:09.351222771, fetcher.go:24] Fetching update: https://state-tool.s3.amazonaws.com/update/state/release/0.32.0-SHAde4a9b9/linux-amd64/state-linux-amd64-0.32.0-SHAde4a9b9.tar.gz
+[DEBUG Dec 19 04:30:24.977228461, fetcher.go:34] Preparing target dir: /tmp/state-update876593329
+[DEBUG Dec 19 04:30:26.341886946, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 04:30:26.342005592, termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DEBUG Dec 19 04:30:26.499823012, updater.go:100] InstallBlocking path: /home/nighttsu/.komodoide/12.0/XRE/state, args: [-n -f -t /home/nighttsu/.komodoide/12.0/XRE/state --source-installer=install.sh --from-deferred]
+[DEBUG Dec 19 04:30:26.500006712, client.go:128] Reporting event to 2 reporters: installer-funnel, install-async, 
+[DEBUG Dec 19 04:30:26.500090038, updater.go:82] Using installer: /tmp/state-update876593329/state-install/state-installer
+[DEBUG Dec 19 04:30:26.500366603, exeutils.go:120] Executing command: /tmp/state-update876593329/state-install/state-installer, [/home/nighttsu/.komodoide/12.0/XRE/state -n -f -t /home/nighttsu/.komodoide/12.0/XRE/state --source-installer=install.sh --from-deferred --source-path /tmp/state-update876593329/state-install]
+[DEBUG Dec 19 05:11:51.465597900, client.go:128] Reporting event to 2 reporters: command-exit, state-installer , 0
+[DEBUG Dec 19 05:11:51.465640202, client.go:128] Reporting event to 2 reporters: installer-funnel, success, 
