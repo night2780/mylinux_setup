@@ -30,6 +30,7 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'https://github.com/vim-airline/vim-airline' " Status bar
+Plug 'vim-airline/vim-airline-themes' " Status bar themes
 Plug 'tpope/vim-fugitive' " git command
 Plug 'https://github.com/jbgutierrez/vim-better-comments' "bettercommemt
 Plug 'mhinz/vim-startify' "neovim start page
@@ -70,7 +71,7 @@ let g:NERDTreeDirArrowCollapsible="~"
 " :CocCommand snippets.edit... FOR EACH FILE TYPE
 
 " air-line
-"let g:airline_theme = 'codedark'
+let g:airline_theme = 'molokai'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline#extensions#tabline#enabled = 1
@@ -79,10 +80,10 @@ if !exists('g:airline_symbols')
    let g:airline_symbols = {}
 endif
 " airline symbols
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep =' '
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep =' '
+" let g:airline_left_sep = ''
+" let g:airline_left_alt_sep =' '
+" let g:airline_right_sep = ''
+" let g:airline_right_alt_sep =' '
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.dirty='⚡'
